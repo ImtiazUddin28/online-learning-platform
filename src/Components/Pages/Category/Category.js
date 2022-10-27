@@ -1,12 +1,14 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
 import CourseSummary from '../CourseSummary/CourseSummary';
+import LeftSideNav from '../LeftSideNav/LeftSidefNav';
 
 const Category = () => {
     const categoryCourse = useLoaderData();
     return (
         <div>
-            <h2>This is Category has course: {categoryCourse.length}</h2>
+            <LeftSideNav></LeftSideNav>
+            <h2>Amount of courses: {categoryCourse.length}</h2>
             {
                 
                 categoryCourse.map(course =><CourseSummary

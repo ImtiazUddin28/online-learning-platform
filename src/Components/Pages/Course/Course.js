@@ -1,11 +1,14 @@
 import React from 'react';
-import Courses from '../Courses/Courses'
-import LeftSideNav from '../LeftSideNav/LeftSidefNav';
+import Category from '../Category/Category';
 const Course = () => {
     return (
         <div>
-           <LeftSideNav></LeftSideNav>
-            <Courses></Courses>
+           
+           <Category></Category>
+           
+           
+          
+
         </div>
     );
 };

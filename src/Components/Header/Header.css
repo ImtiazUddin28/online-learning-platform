@@ -1,3 +1,7 @@
 li{
     list-style-type: none;
 }
+.logo{
+    width: 60px;
+    margin-right: 5px;
+}
