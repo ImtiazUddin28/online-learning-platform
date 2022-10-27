@@ -13,7 +13,7 @@ const CourseSummary = ({ course }) => {
         <Card className="mb-5">
             <Card.Body>
                 <Card.Title>{title}</Card.Title>
-                <Card.Img variant="top" src={image_url} />
+                <Card.Img variant="top" className="w-75 mx-auto" src={image_url} />
                 <Card.Text>
                     {
                         details.length > 250 ?

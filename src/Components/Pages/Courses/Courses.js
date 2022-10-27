@@ -5,9 +5,11 @@ import Button from 'react-bootstrap/Button';
 import { FaEye, FaStar } from 'react-icons/fa';
 import { Image } from 'react-bootstrap';
 
+
 const Courses = () => {
     const course = useLoaderData();
     const { title, author,  details, image_url,rating, total_view } = course;
+    
     return (
         <>
        
@@ -16,7 +18,7 @@ const Courses = () => {
                 <div className='d-flex'>
                     <Image
                         roundedCircle
-                        className='me-2'
+                        className='me-2 w-50'
                         src={author?.img}
                         style={{ height: '60px' }}
                     ></Image>
@@ -27,7 +29,6 @@ const Courses = () => {
                 </div>
                 <div>
                     <Button className='me-2'>Download</Button>
-                    
                 </div>
             </Card.Header>
             <Card.Img variant="top" src={image_url} />
