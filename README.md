@@ -2,8 +2,8 @@
 ## Project Name
 Online Learning Platform
 ## Project Netlify Live link:
-    <!-- https://gilded-sprite-82c4bb.netlify.app/
-   [ https://gilded-sprite-82c4bb.netlify.app/](https://gilded-sprite-82c4bb.netlify.app/) -->
+   
+   [https://online-learning-platform-ba3a7.web.app/]https://online-learning-platform-ba3a7.web.app/)
 ## Most Important Features
     There 26 courses
     There 8 categories
