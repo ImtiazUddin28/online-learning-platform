@@ -9,6 +9,8 @@ const CourseSummary = ({ course }) => {
     const { _id, title, author, details, image_url, rating, total_view } = course;
     
     return (
+        <>
+        
         <Card className="mb-5">
             <Card.Header className='d-flex justify-content-between align-items-center'>
                 <div className='d-flex'>
@@ -51,6 +53,7 @@ const CourseSummary = ({ course }) => {
                 </div>
             </Card.Footer>
         </Card>
+    </>
     );
 };
 
