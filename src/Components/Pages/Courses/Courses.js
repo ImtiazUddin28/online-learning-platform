@@ -7,7 +7,7 @@ import { Image } from 'react-bootstrap';
 
 const Courses = () => {
     const course = useLoaderData();
-    const { title, author,  details, image_url,rating, total_view  } = course;
+    const { title, author,  details, image_url,rating, total_view } = course;
     return (
         <>
        
@@ -37,7 +37,7 @@ const Courses = () => {
                     {details}
                 </Card.Text>
                 <Link to='/checkout'>
-                    <Button variant="primary">Go to Checkout</Button>
+                    <Button variant="primary">Get premium access.</Button>
                 </Link>
             </Card.Body>
             <Card.Footer className="d-flex justify-content-between">
