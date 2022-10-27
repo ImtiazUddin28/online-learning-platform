@@ -22,7 +22,7 @@ export const routes = createBrowserRouter([
             {
                 path: '/',
                 element: <Course></Course>,
-                loader: () => fetch('http://localhost:5001/course')
+                loader: () => fetch('https://b610-lerning-platform-server-side-imtiaz-uddin28.vercel.app/course')
             },
             {
                 path: '/home',
@@ -35,22 +35,22 @@ export const routes = createBrowserRouter([
             {
                 path: '/checkout',
                 element: <PrivateRoutes><Checkout></Checkout></PrivateRoutes>,
-                loader: ({params}) => fetch(`http://localhost:5001/course/${params.id}`)
+                loader: ({params}) => fetch(`https://b610-lerning-platform-server-side-imtiaz-uddin28.vercel.app/course/${params.id}`)
             },
             {
                 path: '/course',
                 element: <Course></Course>,
-                loader: () => fetch('http://localhost:5001/course')
+                loader: () => fetch('https://b610-lerning-platform-server-side-imtiaz-uddin28.vercel.app/course')
             },
             {
                 path: '/course/:id',
                 element: <Courses></Courses>,
-                loader: ({params}) => fetch(`http://localhost:5001/course/${params.id}`)
+                loader: ({params}) => fetch(`https://b610-lerning-platform-server-side-imtiaz-uddin28.vercel.app/course/${params.id}`)
             },
             {
                 path: '/category/:id',
                 element: <Category></Category>,
-                loader: ({params}) => fetch(`http://localhost:5001/category/${params.id}`)
+                loader: ({params}) => fetch(`https://b610-lerning-platform-server-side-imtiaz-uddin28.vercel.app/category/${params.id}`)
             },
             {
                 path: 'faq',
